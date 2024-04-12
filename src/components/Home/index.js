@@ -20,7 +20,7 @@ const Div = styled.div`
 const Home = () => {
   return (
     <Div>
-      <svg
+    <svg
       className="BgAnimation__svg"
       viewBox="0 0 602 602"
       fill="none"
@@ -376,19 +376,9 @@ const Home = () => {
           <stop offset="1" stopColor="#13ADC7" stopOpacity="0" />
         </linearGradient>
       </defs>
-      </svg>
+    </svg>
     </Div>
   )
 }
 
-=======
-import './index.scss';
-
-const Home = () => {
-  return (
-    <div>Home</div>
-  )
-}
-
->>>>>>> 0eb1d331a829727bb70b9e1abc2563e999ca5d09
 export default Home
