@@ -1,0 +1,27 @@
+.page {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.top-tag {
+    top: 35px;
+    bottom: auto;
+}
+
+.tags {
+    color: #ffd700;
+    opacity: 0.6;
+    font-size: 18px;
+    font-family: 'La Bella Aurore';
+    position: absolute;
+    left: 120px;
+    bottom: 0;
+
+    .bottom-tag-html {
+        margin-left: -28px;
+    }
+}
+
+
+
