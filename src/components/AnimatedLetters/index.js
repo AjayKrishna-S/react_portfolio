@@ -1,6 +1,6 @@
 import './index.scss'
 
-const AminatedLetters = ({ letterClass, strArray, idx }) => {
+const AnimatedLetters = ({ letterClass, strArray, idx }) => {
   return (
     <span>
         {
@@ -14,4 +14,4 @@ const AminatedLetters = ({ letterClass, strArray, idx }) => {
   )
 }
 
-export default AminatedLetters
+export default AnimatedLetters
