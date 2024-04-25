@@ -1,8 +1,9 @@
 import "./index.scss"
 import { Link } from "react-router-dom"
-import LogoTitle from "../../assets/images/logo-s.png"
+import LogoTitle from "../../assets/images/logo-a.png"
 import { useEffect, useState } from "react"
 import AnimatedLetters from "../AnimatedLetters"
+import HeroBgAnimation from "../HeroBgAnimation"
 
 const Home = () => {
   const [ letterClass, setLetterClass] = useState('text-animate')
@@ -12,7 +13,7 @@ const nameArray = ['j','a','y']
 useEffect(() => {
   setTimeout(()=> {
     setLetterClass('text-animate-hover')
-  },4000)
+  },3000)
 },[])
 
   return (
@@ -33,7 +34,7 @@ useEffect(() => {
             <br />
             <h2>Frontend Web Developer / React.js Developer</h2>
             <Link to='/contect' className='flat-button'>CONTACT ME</Link>
-            
+            <HeroBgAnimation />
         </div>
     </div>
   )
