@@ -1,23 +1,7 @@
-import React from "react";
-import styled from "styled-components";
+import './index.scss';
 
-const Div = styled.div`
-  width: 750px;
-  height: 500px;
-  @media (max-width: 960px) {
-    width: 600px;
-  }
-
-  @media (max-width: 768px) {
-    width: 500px;
-  }
-
-  @media (max-width: 640px) {
-    width: 450px;
-  }
-`;
 const HeroBgAnimation = () => (
-  <Div>
+  <div className="bg-animation-container">
     <svg
       className="BgAnimation__svg"
       viewBox="0 0 602 602"
@@ -375,7 +359,7 @@ const HeroBgAnimation = () => (
         </linearGradient>
       </defs>
     </svg>
-  </Div>
+  </div>
 );
 
 export default HeroBgAnimation;
