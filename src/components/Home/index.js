@@ -3,7 +3,7 @@ import { Link } from "react-router-dom"
 import LogoTitle from "../../assets/images/logo-a.png"
 import { useEffect, useState } from "react"
 import AnimatedLetters from "../AnimatedLetters"
-import HeroBgAnimation from "../HeroBgAnimation"
+import HeroBgAnimation from "./HeroBgAnimation"
 import Logo from "./Logo"
 
 const Home = () => {
@@ -35,8 +35,12 @@ useEffect(() => {
             <br />
             <h2>Frontend Web Developer / React.js Developer</h2>
             <Link to='/contect' className='flat-button'>CONTACT ME</Link>
-            <HeroBgAnimation />
+        </div>
+        <div className="righside-animation">
+          <HeroBgAnimation />
+          <div className="logo">
             <Logo />
+          </div>
         </div>
     </div>
   )
