@@ -38,7 +38,7 @@ const Contact = () => {
                 <div className='contact-form'>
                     <form>
                         <ul>
-                            <li className='haft'>
+                            <li className='half'>
                                 <input 
                                     type='text' 
                                     name='name'
@@ -46,7 +46,7 @@ const Contact = () => {
                                     required
                                      />
                             </li>
-                            <li className='haft'>
+                            <li className='half'>
                                 <input 
                                     type='email'
                                     name='email'
