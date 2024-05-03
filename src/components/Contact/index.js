@@ -16,12 +16,14 @@ const Contact = () => {
     },[])
 
     const sendEmail = (e) => {
+        e.preventDefault()
+
         emailjs
             .sendForm(
-                'gmail',
-                'templete',
+                'service_l6ado3p',
+                'template_apcavra',
                 refForm.current,
-                // 'user_token_email'
+                '5HnZamh-YXxClkDP2'
             )
             .then(
                 () => {
@@ -58,6 +60,7 @@ const Contact = () => {
                 </h1>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus, a illo reiciendis sequi nobis eligendi debitis porro? Iste totam ad dolorem eaque, commodi unde qui officia odio quibusdam consectetur aliquid.</p>
                 <div className='contact-form'>
+
                     <form ref={refForm} onSubmit={sendEmail}>
                         <ul>
                             <li className='half'>

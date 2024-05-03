@@ -80,14 +80,16 @@
     opacity: 0;
     animation: fadeIn 1s 1.5s;
     animation-fill-mode: forwards;
+
+    span {
+        font-size: 16px;
+        display: block;
+        padding-top: 20px;
+        color: #ffd700;
+     }
  }
 
- span {
-    font-size: 16px;
-    display: block;
-    padding-top: 20px;
-    color: #ffd700;
- }
+
 
  .map-wrap {
     background: rgb(8, 253, 216, 0.1);
