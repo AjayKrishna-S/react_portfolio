@@ -36,13 +36,13 @@ const About = () => {
                     />
                 </h1>
                 <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque commodi qui unde ad quos quae aut consequatur, hic sequi officia excepturi iste, ut in sint at consectetur laborum quod ab.
+                Results-driven Frontend Developer with a strong foundation in web development and a passion for creating visually appealing and intuitive user interfaces. Proficient in HTML, CSS, and JavaScript, with hands-on experience using modern frontend frameworks such as React.js and Boostrap. Adept at translating design mockups into responsive and interactive web applications. 
                 </p>
                 <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque commodi qui unde ad quos quae aut consequatur, hic sequi officia excepturi iste, ut in sint at consectetur laborum quod ab.
+                Demonstrated ability to collaborate effectively with cross-functional teams, ensuring seamless integration of frontend elements. Proven track record of optimizing website performance and user experience. Constantly staying updated with industry trends and emerging technologies to deliver cutting-edge solutions.
                 </p>
                 <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque commodi qui unde ad quos quae aut consequatur, hic sequi officia excepturi iste, ut in sint at consectetur laborum quod ab.
+                Strong problem-solving skills and a commitment to writing clean, maintainable code. Seeking to contribute expertise in frontend development to a dynamic and innovative team.
                 </p>
             </div>
             <div className="stage-cube-cont">

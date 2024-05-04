@@ -58,7 +58,7 @@ const Contact = () => {
                         idx={15}
                     />
                 </h1>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus, a illo reiciendis sequi nobis eligendi debitis porro? Iste totam ad dolorem eaque, commodi unde qui officia odio quibusdam consectetur aliquid.</p>
+                <p>I am interested in freelance oppertunities - especially ambitious or creative projects. However, if you have other request or question, don't hesitate to contact me using below form either.</p>
                 <div className='contact-form'>
 
                     <form ref={refForm} onSubmit={sendEmail}>
