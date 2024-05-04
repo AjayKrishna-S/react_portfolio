@@ -39,7 +39,7 @@ const Sidebar = () => (
                 <a 
                     target="_blank"
                     rel="noreffer"
-                    href="www.github.com"
+                    href="https://www.linkedin.com/in/ajay-krishna-4708582a9/"
                     >
                         <FontAwesomeIcon icon={faLinkedin} color='#4d4d4e'/>
                 </a>
@@ -48,7 +48,7 @@ const Sidebar = () => (
                 <a 
                     target="_blank"
                     rel="noreferrer"
-                    href="www.github.com"
+                    href="https://github.com/AjayKrishna-S"
                     >
                         <FontAwesomeIcon icon={faGithub} color='#4d4d4e'/>
                 </a>
@@ -57,7 +57,7 @@ const Sidebar = () => (
                 <a 
                     target="_blank"
                     rel="noreferrer"
-                    href="www.github.com"
+                    href="mailto:ajaykrishna.sak@gmail.com"
                     >
                         <FontAwesomeIcon icon={faEnvelope} color='#4d4d4e'/>
                 </a>
@@ -66,7 +66,7 @@ const Sidebar = () => (
                 <a 
                     target="_blank"
                     rel="noreferrer"
-                    href="www.github.com"
+                    href="https://wa.me/9363020697"
                     >
                         <FontAwesomeIcon icon={faWhatsapp} color='#4d4d4e'/>
                 </a>
