@@ -3,7 +3,10 @@ import React, { useEffect, useState } from "react";
 import Loader from "react-loaders";
 import AnimatedLetters from "../AnimatedLetters";
 import { getDocs, collection } from 'firebase/firestore';
-import { db } from '../../firebase';
+import { db } from '../../data/firebase';
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 const Portfolio = () => {
   const [letterClass, setLetterClass] = useState('text-animate');
@@ -29,8 +32,18 @@ const Portfolio = () => {
     }
 
     const renderPortfolio = (portfolio) => {
+        var settings = {
+            dots: false,
+            infinite: true,
+            speed: 500,
+            slidesToShow: 4,
+            slidesToScroll: 1,
+            autoplay: true,
+            autoplaySpeed: 2000
+          };
         return (
             <div className="images-container">
+                <Slider {...settings}>
                 {
                     portfolio.map((port, idx) => {
                         return (
@@ -51,6 +64,7 @@ const Portfolio = () => {
                         )
                     })
                 }
+                </Slider>
             </div>
         );
     }
@@ -59,14 +73,16 @@ const Portfolio = () => {
     return (
         <>
             <div className="container portfolio-page">
-                <h1 className="page-title">
-                    <AnimatedLetters
-                        letterClass={letterClass}
-                        strArray={"Portfolio".split("")}
-                        idx={15}
-                    />
-                </h1>
-                <div>{renderPortfolio(portfolio)}</div>
+                <div className='text-zone'>
+                    <h1 className="page-title">
+                        <AnimatedLetters
+                            letterClass={letterClass}
+                            strArray={"Portfolio".split("")}
+                            idx={15}
+                            />
+                    </h1>
+                </div>
+                <div className='portfolio'>{renderPortfolio(portfolio)}</div>
             </div>
             <Loader type="pacman" />
         </>
