@@ -19,21 +19,17 @@
         height: 100%;
         display: flex;
         align-items: center;
-        transform: translateY(-25px);
+        transform: translateY(-33px);
     }
 
     .slick-slide > div {
         margin: 0 10px;
     }
 
-    .slick-preve{
-        transform: translateX(-10px);
-        margin-left: 20px;
+    .slick-prev{
+        transform: translateX(-20px);
     } 
 
-    .slick-next{
-        transform: translateX(10px);
-    } 
     .slick-prev:before, .slick-next:before {
         font-size: 40px;
     }
