@@ -1,4 +1,4 @@
-import './index.scss'
+import React from 'react'
 
 const Frameworks = () => {
   return (

@@ -2,7 +2,7 @@ import './index.scss'
 import AnimatedLetters from '../AnimatedLetters'
 import { useEffect, useState } from 'react'
 import { Link, Outlet, Route, Routes } from 'react-router-dom'
-import Languages from './Languages'
+
 
 const Skills = () => {
 
@@ -27,7 +27,7 @@ const Skills = () => {
                     <div className="skills">
                         <div className="skill-container">
                             <div className='skill-languages'>
-                                <Link to='/skills/laguages'>Languages</Link> </div>
+                                <Link to='/skills/languages'>Languages</Link> </div>
                             <div className='skill-frameworks'>Frameworks / Libraries</div>
                             <div className='skill-database'>Databases</div>
                         </div>
