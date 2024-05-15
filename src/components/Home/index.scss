@@ -79,7 +79,31 @@
                 color: #333;
             }
         }
-    }   
+    }  
+    
+    .righside-animation {
+        position: relative;
+        left: 50%;
+        width: 55%;
+        height: 100%;
+
+        display: flex;
+        justify-content: center;
+
+        .img-container{
+            position: absolute;
+            width: auto;
+            height: auto;
+            
+            hero-img{
+                position: absolute;
+                top:auto;
+                // opacity: 0;
+                z-index: 1;
+                animation: fadeIn 1.8s 1.8s backwards;
+            }
+        }
+    }
 }
 
 

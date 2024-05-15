@@ -26,6 +26,10 @@
             border-radius: 3%;
             cursor: pointer;
 
+            opacity: 0;
+            animation: backInRight 1s 1.2s;
+            animation-fill-mode: forwards;
+
             &:hover{
                 &::before {
                     opacity: 1;

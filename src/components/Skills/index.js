@@ -1,7 +1,8 @@
 import './index.scss'
 import AnimatedLetters from '../AnimatedLetters'
 import { useEffect, useState } from 'react'
-import { Link, Outlet, Route, Routes } from 'react-router-dom'
+import { Link, Outlet} from 'react-router-dom'
+import Loader from 'react-loaders'
 
 
 const Skills = () => {
@@ -39,6 +40,7 @@ const Skills = () => {
                 </div>
                 <Outlet />
         </div> 
+        <Loader type='pacman' />
     </>
   )
 }

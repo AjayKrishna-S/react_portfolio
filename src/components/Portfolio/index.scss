@@ -47,6 +47,10 @@
         overflow: hidden;
         border-radius: 10px;
 
+        animation: backInRight 2s 2s;
+        animation-fill-mode: forwards;
+        opacity: 0;
+
         .portfolio-image {
             position: absolute;
             top: 0;

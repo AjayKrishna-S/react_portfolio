@@ -4,8 +4,8 @@ import LogoTitle from "../../assets/images/logo-a.png"
 import { useEffect, useState } from "react"
 import AnimatedLetters from "../AnimatedLetters"
 import HeroBgAnimation from "./HeroBgAnimation"
-import Logo from "./Logo"
 import Loader from "react-loaders"
+import LogoA from '../../assets/images/hero-img1.png'
 
 const Home = () => {
   const [ letterClass, setLetterClass] = useState('text-animate')
@@ -64,10 +64,11 @@ useEffect(() => {
               <h2>Frontend Web Developer / React.js Developer</h2>
               <Link to='/contact' className='flat-button'>CONTACT ME</Link>
           </div>
+          
           <div className="righside-animation">
             <HeroBgAnimation />
-            <div className="logo">
-              <Logo />
+            <div className="img-container">
+              <img className='hero-img' src={LogoA} alt='A' />
             </div>
           </div>
       </div>
