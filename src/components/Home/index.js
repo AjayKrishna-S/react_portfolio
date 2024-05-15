@@ -62,7 +62,7 @@ useEffect(() => {
               </h1>
               <br />
               <h2>Frontend Web Developer / React.js Developer</h2>
-              <Link to='/contect' className='flat-button'>CONTACT ME</Link>
+              <Link to='/contact' className='flat-button'>CONTACT ME</Link>
           </div>
           <div className="righside-animation">
             <HeroBgAnimation />

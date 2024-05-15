@@ -17,14 +17,14 @@ const Databases = () => {
         <div className='card'>
           <div className="card-border"></div>
           <div className="card-content">
-
+            <img src="https://firebasestorage.googleapis.com/v0/b/react-portfolio-5a704.appspot.com/o/Skills%2Fmysql.png?alt=media&token=e1d815c2-4f91-48e6-9c07-221ccd9e5de9" alt="my sql" />
           </div>
             
         </div>
         <div className='card' > 
           <div className="card-border"></div>         
           <div className="card-content">
-
+            <img src="https://firebasestorage.googleapis.com/v0/b/react-portfolio-5a704.appspot.com/o/Skills%2Ffirebase.png?alt=media&token=adf6bfcc-876e-4be5-a62d-999c2b571131" alt="firebase" />
           </div>
         </div>
       </div>

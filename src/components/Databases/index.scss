@@ -66,6 +66,16 @@
                 position: relative;
                 background-color: #022c43;
                 z-index: 2;
+
+                img {
+                    object-fit:contain;
+                    width: 200px;
+                    height: 200px;
+                    margin: auto;
+                    padding-top: 30px;
+                    align-items: center;
+                    opacity: 0.8;
+                }
             }
         }
     }

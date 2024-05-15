@@ -1,6 +1,11 @@
+ .contact-page {
+    .text-zone {
+        margin-top: 25px;
+    }
+
  .contact-form {
     width: 100%;
-    margin-top: 20px;
+    margin-top: 10px;
 
     ul {
         padding: 0;
@@ -49,7 +54,7 @@
         font-size: 16px;
         color: #fff;
         padding: 20px;
-        min-height: 150px;
+        min-height: 140px;
         box-sizing: border-box;
     }
     .flat-button {
@@ -106,3 +111,4 @@
     animation: backInRight 1s 1.2s;
     animation-fill-mode: forwards;
  }
+}
