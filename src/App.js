@@ -22,7 +22,6 @@ function App() {
             <Route path="/skills/languages" element={<Languages />} />
             <Route path="/skills/frameworks" element={<Frameworks />} />
             <Route path="/skills/databases" element={<Databases />} />
-
           </Route> 
           <Route path="/contact" element={<Contact />} />
           <Route path='/portfolio' element={<Portfolio />} />
