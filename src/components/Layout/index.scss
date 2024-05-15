@@ -118,20 +118,14 @@
 
 @media (max-width: 576px) {
     .page {
+
         .tags{
-            left: 30px;
-            
-
+            display: none;
+        
             .bottom-tag-html{
-
+                display: none;
             }
         }
-
-        .top-tag{
-            top: 90px;
-
-        }
-
     }
 }
 
@@ -140,7 +134,12 @@
         .text-zone{
 
             h1{
-
+                &::before{
+                    display: none;
+                }
+                &::after{
+                    display: none;
+                }
             }
         }
     }
