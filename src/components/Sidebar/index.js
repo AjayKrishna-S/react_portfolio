@@ -52,7 +52,7 @@ const Sidebar = () => (
             <li>
                 <a 
                     target="_blank"
-                    rel="noreffer"
+                    rel='noreferrer'
                     href="https://www.linkedin.com/in/ajay-krishna-4708582a9/"
                     >
                         <FontAwesomeIcon icon={faLinkedin} color='#4d4d4e'/>
