@@ -27,9 +27,13 @@ const Skills = () => {
                     <div className="skills">
                         <div className="skill-container">
                             <div className='skill-languages'>
-                                <Link to='/skills/languages'>Languages</Link> </div>
-                            <div className='skill-frameworks'>Frameworks / Libraries</div>
-                            <div className='skill-database'>Databases</div>
+                                <Link to='/skills/languages'>Languages</Link> 
+                            </div>
+                            <div className='skill-frameworks'>
+                                <Link to='/skills/frameworks'>Frameworks / Libraries</Link></div>
+                            <div className='skill-database'>
+                                <Link to='/skills/databases'>Databases</Link>
+                            </div>
                         </div>
                     </div>
                 </div>
