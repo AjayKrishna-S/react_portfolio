@@ -37,3 +37,19 @@
         }
 }
 }
+
+@media (max-width: 576px) {
+    .skills-page{
+        position: static;
+        left: auto;
+        margin-top: 75px;
+
+        display: flex;
+        flex-direction: column;
+
+        .text-zone {
+            top: 30%;
+        }
+    }
+
+}
