@@ -77,19 +77,33 @@
 }
 
 @media (max-width: 576px) {
-    .text-zone{
-
-        p{
-            text-align: center;
-            margin: 0 10px;
-            &:nth-child(2){
-                display: none;
+    .about-page{
+        display: flex;
+        flex-direction: column;
+        .text-zone{
+            position: static;
+            transform: none;
+            width: 100%;
+            margin-top: 100px;
+            z-index: 1;
+            h1{
+                font-size: 38px;
+                overflow: hidden;
             }
-            &:nth-child(3){
-                display: none;
+            p{
+                text-align: center;
+                margin: 0 10px;
+                &:nth-child(2){
+                    display: none;
+                }
+                &:nth-child(3){
+                    display: none;
+                }
             }
+ 
         }
     }
+    
     
     .stage-cube-cont {
         width: 100%;

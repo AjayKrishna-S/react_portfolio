@@ -40,12 +40,24 @@
 
 @media (max-width: 576px) {
     .skills-page{
+        display: flex;
+        flex-direction: column;
         position: static;
-        left: auto;
-        margin-top: 75px;
 
         .text-zone {
-            top: 30%;
+            position: static;
+            transform: none;
+            width: 100%;
+            margin-top: 100px;
+            h1{
+                font-size: 38px;
+            }
+            .skills{
+
+                .skill-container{
+
+                }
+            }
         }
     }
 
