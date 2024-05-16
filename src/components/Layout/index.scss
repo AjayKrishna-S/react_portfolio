@@ -130,16 +130,31 @@
 }
 
 @media (max-width: 576px) {
-    .container{
+    .about-page, .contact-page, .portfolio-page, .skills-page{
+        display: flex;
+        flex-direction: column;
         .text-zone{
+            width: 100%;
+            left: 0;
+            top: 32%;
+            height: 50%;
 
+            
+            
             h1{
+                text-align: center;
+                margin-bottom: 25px;
+
                 &::before{
                     display: none;
                 }
                 &::after{
                     display: none;
                 }
+            }
+
+            p {
+                text-align: center;
             }
         }
     }

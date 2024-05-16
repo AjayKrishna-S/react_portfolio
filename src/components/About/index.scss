@@ -75,3 +75,12 @@
         transform: rotateX(90deg); 
     }
 }
+
+@media (max-width: 576px) {
+    .stage-cube-cont {
+        width: 100%;
+        height: 50%;
+
+        top: 50%;
+    }
+}

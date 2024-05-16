@@ -127,7 +127,8 @@
 
 @media (max-width: 576px) {
     .nav-bar{
-            width: 100%;
+        width: calc(100% + 10px);
+        overflow: hidden;
         height: 75px;
         min-height: 75px;
         margin: auto;
@@ -167,10 +168,9 @@
             align-items: center;
         }
         ul{
-            display: flex;
+            display: none;
             flex-direction: row;
             justify-content: space-around;
-
             bottom: -790px;
 
             li {

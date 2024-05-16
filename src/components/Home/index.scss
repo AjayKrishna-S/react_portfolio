@@ -108,6 +108,9 @@
 
 @media (max-width: 576px) {
     .home-page{
+        display: flex;
+        flex-direction: column;
+        
         .text-zone{
             width: 100%;
             left: 0;
@@ -146,7 +149,7 @@
         }
 
         .righside-animation {
-            top: 60%;
+            top: 50%;
             width: 100%;
             left: 50%;
             transform: translateX(-50%);
