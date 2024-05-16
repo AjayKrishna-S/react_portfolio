@@ -7,9 +7,11 @@ import { db } from '../../data/firebase';
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import useWindowSize from '../../Hooks/useWindowSize'
 
 const Portfolio = () => {
-  const [letterClass, setLetterClass] = useState('text-animate');
+    const {width} = useWindowSize();
+    const [letterClass, setLetterClass] = useState('text-animate');
     const [portfolio, setPortfolio] = useState([]);
 
     useEffect(() => {
@@ -32,7 +34,22 @@ const Portfolio = () => {
     }
 
     const renderPortfolio = (portfolio) => {
-        const settings = {
+        const settings = width < 576 ? {
+            dots: false,
+            infinite: true,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            vertical: true,
+            verticalSwiping: true,
+            autoplay: true,
+            autoplaySpeed: 2000,
+            beforeChange: function(currentSlide, nextSlide) {
+                console.log("before change", currentSlide, nextSlide);
+            },
+            afterChange: function(currentSlide) {
+                console.log("after change", currentSlide);
+            }
+        } : {
             dots: false,
             infinite: true,
             speed: 500,
@@ -40,7 +57,10 @@ const Portfolio = () => {
             slidesToScroll: 1,
             autoplay: true,
             autoplaySpeed: 2000
-          };
+        };
+
+
+
         return (
             <div className="images-container">
                 <Slider {...settings}>

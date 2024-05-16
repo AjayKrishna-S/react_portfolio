@@ -84,3 +84,19 @@
         }
     }
 }
+
+@media (max-width: 576px) {
+    .database-container{
+        width: 100%;
+        height: 100%;
+        // position: static;
+        left: auto;
+        top: 50%;
+
+        .wrapper{
+            .card{
+                height: 200px;
+            }
+        }
+    }
+}
