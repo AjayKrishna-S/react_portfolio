@@ -66,9 +66,9 @@ useEffect(() => {
           </div>
           
           <div className="righside-animation">
-            <HeroBgAnimation />
             <div className="img-container">
               <img className='hero-img' src={LogoA} alt='A' />
+              <HeroBgAnimation />
             </div>
           </div>
       </div>

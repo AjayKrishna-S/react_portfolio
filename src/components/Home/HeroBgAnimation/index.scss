@@ -18,7 +18,9 @@
     
       @media (max-width: 640px) {
         max-width: calc(100% - 20px);
-        overflow: hidden;
+        position: absolute;
+        left: 0;
         top: 0;
+        overflow: hidden;
       }
 }
