@@ -123,13 +123,14 @@
 }
 
 @media (max-width: 576px) {
+
+    .container{
+        top: 0;
+    }
     .about-page, .contact-page, .portfolio-page, .skills-page{
         display: flex;
         flex-direction: column;
-
         overflow-x:hidden;
-        // overflow-y: scroll;
-        // height:-webkit-fill-available;
         .text-zone{
             width: 100%;
 
