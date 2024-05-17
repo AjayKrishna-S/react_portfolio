@@ -126,11 +126,13 @@
     .about-page, .contact-page, .portfolio-page, .skills-page{
         display: flex;
         flex-direction: column;
-        overflow-y: scroll;
+
         overflow-x:hidden;
-        height:-webkit-fill-available;
+        // overflow-y: scroll;
+        // height:-webkit-fill-available;
         .text-zone{
             width: 100%;
+
             left: 0;
             top: 32%;
             height: 50%;

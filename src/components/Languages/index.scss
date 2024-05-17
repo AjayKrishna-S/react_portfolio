@@ -87,13 +87,13 @@
 @media (max-width: 576px) {
     .languages-container{
         width: 100%;
-        height:max-content;
+        height:100%;
         position: static;
         left: auto;
         top: auto;
 
         .wrapper{
-            height:max-content;
+            height:100%;
             .card{
                 height: 200px;
             }
