@@ -141,18 +141,13 @@
 
 @media (max-width: 576px) {
 
-    .portfolio-page {
+    .portfolio-page {        
+        display: flex;
+        flex-direction: column;
         margin: 0;
         width: 100%;
-        height: 100%;
-        position: static;
-        flex-direction: column;
-        display: flex;
-
 
         .text-zone {
-            display: flex;
-            justify-content: center;
             width:100%;
             height: 20%;
             margin-top: 100px;
@@ -160,6 +155,11 @@
             left: auto;
             top: auto;
             transform: none;
+
+            h1{
+                font-size: 38px;
+                margin-left: 6% ;
+            }
         }
 
         .portfolio{

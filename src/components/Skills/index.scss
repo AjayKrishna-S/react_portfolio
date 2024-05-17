@@ -43,7 +43,7 @@
         display: flex;
         flex-direction: column;
         position: static;
-
+        
         .text-zone {
             position: static;
             transform: none;
@@ -51,9 +51,10 @@
             margin-top: 100px;
             h1{
                 font-size: 38px;
+                margin-bottom: 15px;
             }
             .skills{
-
+                height: fit-content;
                 .skill-container{
 
                 }
