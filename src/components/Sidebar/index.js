@@ -30,7 +30,7 @@ const Sidebar = () => (
                 exact="true" 
                 activeclassname="active" 
                 className="skills-link"
-                to="/skills/languages">
+                to="/skills">
                     <FontAwesomeIcon icon={faHandshake} color="#4d4d4e"/>
             </NavLink>
             <NavLink
