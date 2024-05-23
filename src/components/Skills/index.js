@@ -1,7 +1,7 @@
 import './index.scss'
 import AnimatedLetters from '../AnimatedLetters'
 import { useEffect, useState } from 'react'
-import { Link, Outlet} from 'react-router-dom'
+import { Outlet, NavLink} from 'react-router-dom'
 import Loader from 'react-loaders'
 
 
@@ -26,16 +26,26 @@ const Skills = () => {
                         />
                     </h1>
                     <div className="skills">
-                        <div className="skill-container">
-                            <div className='skill-languages'>
-                                <Link to='/skills/languages'>Languages</Link> 
-                            </div>
-                            <div className='skill-frameworks'>
-                                <Link to='/skills/frameworks'>Frameworks / Libraries</Link></div>
-                            <div className='skill-database'>
-                                <Link to='/skills/databases'>Databases</Link>
-                            </div>
-                        </div>
+                        <nav>
+                            <NavLink
+                                exact="true"
+                                activeclassname="active"
+                                to="/skills/languages">
+                                    Languages
+                            </NavLink>
+                            <NavLink
+                                exact="true"
+                                activeclassname="active"
+                                to="/skills/frameworks">
+                                    Frameworks / Libraries
+                            </NavLink>
+                            <NavLink
+                                exact="true"
+                                activeclassname="active"
+                                to="/skills/databases">
+                                    Databases
+                            </NavLink>
+                        </nav>
                     </div>
                 </div>
                 <Outlet />
