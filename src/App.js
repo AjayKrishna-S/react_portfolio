@@ -19,6 +19,7 @@ function App() {
           <Route index element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/skills" element={<Skills />}>
+            <Route index element={<Languages />} />
             <Route path="/skills/languages" element={<Languages />} />
             <Route path="/skills/frameworks" element={<Frameworks />} />
             <Route path="/skills/databases" element={<Databases />} />
