@@ -37,6 +37,12 @@ const Languages = () => {
               <img src="https://firebasestorage.googleapis.com/v0/b/react-portfolio-5a704.appspot.com/o/Skills%2Fjs.png?alt=media&token=d7da2e40-50a7-4641-9309-5a08d2826dae" alt="js" />
             </div>
           </div>
+          <div className='lan-js card'>
+            <div className="card-border"></div>
+            <div className="card-content">
+              <img src="https://firebasestorage.googleapis.com/v0/b/react-portfolio-5a704.appspot.com/o/Skills%2Fjava.png?alt=media&token=74d766e0-c644-4df0-8773-6b2b02051916" alt="java" />
+            </div>
+          </div>
         </div>
       </div>
       <Loader type='pacman' />
