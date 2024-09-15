@@ -58,8 +58,7 @@ const Portfolio = () => {
             autoplay: true,
             autoplaySpeed: 2000
         };
-
-
+console.log(portfolio)
 
         return (
             <div className="images-container">

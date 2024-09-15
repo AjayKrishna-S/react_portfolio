@@ -28,6 +28,12 @@ const Databases = () => {
               <img src="https://firebasestorage.googleapis.com/v0/b/react-portfolio-5a704.appspot.com/o/Skills%2Ffirebase.png?alt=media&token=adf6bfcc-876e-4be5-a62d-999c2b571131" alt="firebase" />
             </div>
           </div>
+          <div className='card' > 
+            <div className="card-border"></div>         
+            <div className="card-content">
+              <img src="https://firebasestorage.googleapis.com/v0/b/react-portfolio-5a704.appspot.com/o/Skills%2Fmongodb.png?alt=media&token=a00f3d28-319a-46c8-b967-be6782dc99b1" alt="mongodb" />
+            </div>
+          </div>
         </div>
       </div>
     </>

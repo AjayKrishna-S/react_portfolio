@@ -27,13 +27,19 @@ const Frameworks = () => {
           <div className='card' > 
             <div className="card-border"></div>         
             <div className="card-content">
-              <img src="https://firebasestorage.googleapis.com/v0/b/react-portfolio-5a704.appspot.com/o/Skills%2Fsass.png?alt=media&token=de6ea430-d464-4e9b-82a5-a6ef57a120b6" alt="scss" />
+              <img src="https://firebasestorage.googleapis.com/v0/b/react-portfolio-5a704.appspot.com/o/Skills%2Fnode%20js.png?alt=media&token=0b24fd4e-2b1c-402e-8587-511469d406a1" alt="node.js" />
             </div>
           </div>
           <div className='card'>
             <div className="card-border"></div>
             <div className="card-content">
-              <img src="https://firebasestorage.googleapis.com/v0/b/react-portfolio-5a704.appspot.com/o/Skills%2Fbootstrap.png?alt=media&token=a7eecd28-e1ac-45b3-a86e-5fa1dd3048af" alt="bootstrap" />
+              <img src="https://firebasestorage.googleapis.com/v0/b/react-portfolio-5a704.appspot.com/o/Skills%2Fexpress.png?alt=media&token=12d50160-23bf-42ff-90d5-4dca4b428a1a" alt="express.js" />
+            </div>
+          </div>
+          <div className='card'>
+            <div className="card-border"></div>
+            <div className="card-content">
+              <img src="https://firebasestorage.googleapis.com/v0/b/react-portfolio-5a704.appspot.com/o/Skills%2Fnext%20js.png?alt=media&token=d0afe23e-006e-4223-aed6-3b260b309425" alt="next.js" />
             </div>
           </div>
         </div>
