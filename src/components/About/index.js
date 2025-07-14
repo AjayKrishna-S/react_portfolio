@@ -2,7 +2,7 @@ import './index.scss'
 import { useEffect, useState } from 'react'
 import AnimatedLetters from '../AnimatedLetters'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCss3, faGitAlt, faHtml5, faJsSquare, faReact, faNodeJs } from '@fortawesome/free-brands-svg-icons'
+import { faCss3, faGitAlt, faJsSquare, faReact, faNodeJs } from '@fortawesome/free-brands-svg-icons'
 
 import { faDatabase } from '@fortawesome/free-solid-svg-icons'
 import Loader from 'react-loaders'
