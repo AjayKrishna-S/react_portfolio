@@ -2,7 +2,8 @@ import './index.scss'
 import { useEffect, useState } from 'react'
 import AnimatedLetters from '../AnimatedLetters'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCss3, faGitAlt, faHtml5, faJsSquare, faReact } from '@fortawesome/free-brands-svg-icons'
+import { faCss3, faGitAlt, faHtml5, faJsSquare, faReact, faNodeJs } from '@fortawesome/free-brands-svg-icons'
+
 import { faDatabase } from '@fortawesome/free-solid-svg-icons'
 import Loader from 'react-loaders'
 
@@ -37,13 +38,19 @@ const About = () => {
                     />
                 </h1>
                 <p>
-                Results-driven Frontend Developer with a strong foundation in web development and a passion for creating visually appealing and intuitive user interfaces. Proficient in HTML, CSS, and JavaScript, with hands-on experience using modern frontend frameworks such as React.js and Boostrap. Adept at translating design mockups into responsive and interactive web applications. 
+                I’m a MERN Stack Developer passionate about building modern, full-stack web applications. Currently working as a Junior Software Developer at AppExert.
                 </p>
+
                 <p>
-                Demonstrated ability to collaborate effectively with cross-functional teams, ensuring seamless integration of frontend elements. Proven track record of optimizing website performance and user experience. Constantly staying updated with industry trends and emerging technologies to deliver cutting-edge solutions.
+                I specialize in both frontend and backend development using JavaScript-based technologies. I enjoy solving complex problems and writing clean, maintainable code.
                 </p>
+                <br/>
                 <p>
-                Strong problem-solving skills and a commitment to writing clean, maintainable code. Seeking to contribute expertise in frontend development to a dynamic and innovative team.
+                <span style={{ color: "#ffd700" }}>Frontend:</span> React.js, Next.js, jQuery, Tailwind CSS, SCSS, HTML, CSS
+                </p>
+
+                <p>
+                <span style={{ color: "#ffd700" }}>Backend:</span> Node.js, Express.js, MongoDB, Mongoose, MySQL
                 </p>
             </div>
             <div className="stage-cube-cont">
@@ -52,7 +59,7 @@ const About = () => {
                         <FontAwesomeIcon icon={faReact} color='#5ED4F4' />
                     </div>
                     <div className="face2">
-                        <FontAwesomeIcon icon={faHtml5} color='#F06529' />
+                        <FontAwesomeIcon icon={faNodeJs} color='#21A366' />
                     </div>
                     <div className="face3">
                         <FontAwesomeIcon icon={faCss3} color='#28A4D9' />
